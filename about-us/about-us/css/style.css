@@ -1,0 +1,437 @@
+body {
+  width: 100%;
+}
+
+/* navbar */
+
+nav .logo img{
+  width: 7rem;
+  margin-left: -2.5rem !important;
+  margin-right: -1.5rem !important;
+}
+
+.navbar {
+  background-color: #01779b !important;
+}
+
+.nav-name {
+  color: #fff;
+}
+
+.nav-name:hover {
+  color: #9d9595 !important;
+}
+
+.list {
+  background-color: #026f90;
+}
+
+.list-item {
+  color: #fff;
+}
+
+.nav button {
+  background-color: #fff;
+}
+
+.navbar-toggler span {
+  width: 20px;
+  display: block;
+  height: 2.5px;
+  background-color: #ffffff;
+  margin-bottom: 4px;
+  transition: all .5s;
+  -webkit-transition: all .5s;
+}
+
+.nav-item a {
+  color: #ffffff !important;
+}
+
+.logo-name:hover {
+  color: #ffffff !important;
+}
+
+
+
+nav .nav-item .dropdown-list {
+  position: absolute;
+  width:195px;
+  padding: 0px;
+  top: 65% ;
+  left: 80%;
+  background-color: #fff;
+  transform: scale(.7);
+  -webkit-transform: scale(.7);
+  -moz-transform: scale(.7);
+  -ms-transform: scale(.7);
+  -o-transform: scale(.7);
+  visibility: hidden;
+  transition: all .3s ease-out;
+  -webkit-transition: all .3s ease-out;
+  -moz-transition: all .3s ease-out;
+  -ms-transition: all .3s ease-out;
+  -o-transition: all .3s ease-out;
+  text-align: end;
+}
+
+nav .nav-item:hover .dropdown-list {
+  transform: scale(1);
+  -webkit-transform: scale(1);
+  -moz-transform: scale(1);
+  -ms-transform: scale(1);
+  -o-transform: scale(1);
+  visibility: visible;
+}
+
+nav .nav-item .dropdown-list .list-link {
+  color: #01779B !important;
+  line-height: 1.7;
+  transition: all 0.3s;
+  -webkit-transition: all 0.3s;
+  -moz-transition: all 0.3s;
+  -ms-transition: all 0.3s;
+  -o-transition: all 0.3s;
+
+}
+
+nav .nav-item .dropdown-list .list-link:hover {
+  letter-spacing: .7px;
+}
+.dropdown-list ul{
+  list-style: none;
+  padding: 2px 10px;
+ 
+ }
+.dropdown-list a{
+  text-decoration: none;
+}
+@media only screen and (max-width: 767px) {
+  nav .navbar-nav .nav-item .dropdown-list {
+    position: unset;
+    filter: none;
+    transform: scale(1);
+    width: 7rem;
+    padding: 10px 5px;
+    display: none;
+    transition: all 3s;
+    -webkit-transition: all 3s;
+    -moz-transition: all 3s;
+    -ms-transition: all 3s;
+    -o-transition: all 3s;
+  }
+
+  nav .navbar-nav .nav-item:hover .dropdown-list {
+    display: inline-block;
+    width: 7rem;
+
+  }
+}
+
+.header {
+  background-color: #01779B;
+  overflow: auto;
+}
+
+.header .text {
+  color: rgb(217 223 229);
+  width: 50%;
+  margin: auto;
+  text-align: center;
+  padding-top: 5%;
+}
+
+.dental-area {
+  margin: 0;
+}
+
+.about-us {
+  font-size: 4rem;
+  margin: 0;
+
+}
+
+
+.photo {
+  width: 26%;
+  float: left;
+}
+
+.photo img {
+  width: 100%;
+}
+
+.button {
+  float: right;
+
+  width: 54%;
+  padding-top: 1%;
+}
+
+.btn1 {
+  background-color: rgba(115, 120, 124, 0.87);
+  min-width: 20%;
+  color: #DDE2E8;
+  min-height: 4.5vh;
+  border-color: rgba(115, 120, 124, 0.87);
+  font-size: 100%;
+  font-weight: bold;
+
+}
+
+.why-choose-us-section {
+  margin: 0;
+  background-color: #DDE2E8;
+  color: #01779B;
+}
+
+.why-choose-us-div1 {
+  width: 75%;
+  margin: auto;
+  text-align: center;
+}
+
+.why-choose-us-h3 {
+  font-size: 200%;
+  font-weight: bolder;
+  margin: 0;
+  padding-top: 3%;
+  padding-bottom: 2%;
+}
+
+.why-choose-us-div2 {
+  overflow: auto;
+  padding: 1rem 2rem;
+}
+
+.container1 {
+  width: calc(82%/4);
+  background-color: #DDE2E8;
+  display: flex;
+  justify-content: center;
+}
+
+.content {
+  display: flex;
+  align-items: center;
+  overflow: auto;
+}
+
+.content .text h3 {
+  font-size: 180%;
+  color: #01779B;
+  margin-right: 0.7rem;
+}
+
+.icon-img {
+
+  width: 28%;
+
+}
+
+.icon-img img {
+  width: 100%;
+
+}
+
+
+@media(max-width:880px) and (min-width:580px) {
+
+  .content .text h3 {
+    font-size: 140%;
+
+  }
+
+  .btn {
+
+    background-color: rgba(115, 120, 124, 0.87);
+    min-width: 15%;
+    color: #DDE2E8;
+    min-height: 3vh;
+    border-color: rgba(115, 120, 124, 0.87);
+    font-size: 80%;
+    font-weight: bold;
+
+  }
+
+}
+
+@media(max-width:580px) {
+
+  .about-us {
+    font-size: 280%;
+    font-weight: bolder;
+    margin: 0;
+
+  }
+
+  .content .text h3 {
+    font-size: 90%;
+    /* margin-bottom: 0; */
+  }
+
+
+
+  .photo {
+    width: 0%;
+    float: left;
+  }
+
+  .photo img {
+    width: 100%;
+  }
+  .button {
+    float: right;
+
+    width: 63%;
+    padding-top: 1%;
+    padding-bottom: 3%;
+    justify-content: center;
+  }
+
+  .btn {
+
+    background-color: rgba(115, 120, 124, 0.87);
+    min-width: 15%;
+    color: #DDE2E8;
+    min-height: 3vh;
+    border-color: rgba(115, 120, 124, 0.87);
+    font-size: 80%;
+    font-weight: bold;
+
+  }
+
+
+}
+
+.dr-ahmed {
+  background-color: #01779B;
+  overflow: auto;
+  padding: 0% 3%;
+  color: rgb(217 223 229);
+  justify-content: center;
+}
+
+.colum1 {
+  float: left;
+  width: 40%;
+
+}
+
+.colum1 img {
+  width: 70%;
+  padding: 7% 0 0 0;
+}
+
+.colum2 {
+  float: right;
+  width: 54%;
+  text-align: center;
+}
+
+.colum2 h3 {
+  font-size: 150%;
+  margin: 2%;
+  margin-top: 2rem;
+}
+.colum2 p{
+  font-family: bold;
+  font-size: 1rem ;
+}
+@media(max-width:620px) {
+
+  dr-ahmed {
+    background-color: #01779B;
+    padding: 0% 3%;
+    color: rgb(217 223 229);
+  }
+
+  .colum1 {
+    float: none;
+    width: 100%;
+    overflow: auto;
+
+  }
+
+  .colum1 img {
+    width: 94%;
+    margin: 0 3%;
+    padding-top: 2%;
+  }
+
+  .colum2 {
+    float: none;
+    width: 100%;
+    text-align: center;
+  }
+
+  .colum2 h3 {
+    font-size: 150%;
+    margin: 2%;
+    margin-top: 10%;
+  }
+}
+
+
+/* footer */
+.footer{
+  background-color:#01779B ;
+  color: #FFF ;
+  font-size: 1.2rem;
+  margin-bottom: 0 !important;
+  padding-bottom: 0 !important;
+}
+.footer a{
+  color: #FFF;
+  text-decoration: none;
+}
+.footer i,h6{
+  display: inline;
+  font-size: 1.20.rem;
+}
+.footer-services{
+ margin-top: 2.5rem !important;
+  padding-bottom: 0rem !important;
+}
+.footer-contact{
+
+  text-align: center;
+  margin-top: 2.5rem !important;
+
+}
+.footer-services h6{
+  border-bottom:.5px #dfd7d76b solid ;
+  display: block;
+  padding-bottom: .7rem;
+}
+.h6services{
+  border-bottom:0px #dfd7d76b solid !important;
+  display: block;
+  padding-bottom: 0rem !important;
+}
+
+.copyright{
+font-size: .9rem;
+padding-bottom: .5rem;
+}
+@media only screen and (max-width: 768px){
+  .footer-logo{
+      padding: 0rem !important ;
+      margin-top: 5.5rem !important ;
+     
+  }
+
+   .footer i,
+   .footer h6,
+   .footer h3{
+      font-size: .9rem;
+  }
+
+}
+
+p{
+  font-size: .9rem;
+}
+
+
+
